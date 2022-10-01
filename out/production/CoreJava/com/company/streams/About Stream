@@ -1,0 +1,18 @@
+Streams
+    Without terminal operation(foreach) no intermediate operation(map) invoke
+
+    collection->foccide(toti)->
+
+Intermediate function
+    These are filtering mapping slicing
+    intermediate function return the stream instance which pass to another intermediate function
+    These operations are the lazy operation
+
+Terminal function
+    These function are matching finding collect
+    These function ends the stream and does not return stream instance and without them
+    there is no invocation of intermediate function
+
+    Treminal operation triggers the execution of the pipeline
+    these operation are the eager operation that initiates the action
+    terminal operation likhna mtlb toti kholna

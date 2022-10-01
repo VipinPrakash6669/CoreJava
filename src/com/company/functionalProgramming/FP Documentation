@@ -1,0 +1,16 @@
+functional Programming
+    you can pass function as arguments to methods and within those method you can use those functions
+
+    you can write more precise and compact and efficient code
+
+    form java eight onwards, even behavior could be passed US argument, that is, we can pass around
+    method functionality and this is possible via lambdas and also something called method references.
+
+    In that sense, from July eight onwards, methods are also considered as first class citizens.
+
+Lmbda
+    It is an anonymous function, so it is not an anonymous class, but an anonymous function.
+
+    And it is a compact way of defining a function which can be passed on.
+
+    So it is useful when we want to pass it on some functionality and it helps in doing it in a very compact way

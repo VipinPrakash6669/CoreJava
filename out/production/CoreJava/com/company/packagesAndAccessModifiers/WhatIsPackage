@@ -1,0 +1,24 @@
+Well, some of the reasons that you actually want to use packages
+
+is that it makes it actually easier for
+programmers to determine that classes are actually related to one thing or another.
+
+Another great reason is it's easy to know where to find the classes and
+interfaces that can provide the functions provided by the package.
+Cuz they're all sort of in the same group if you will, the same package.
+
+And the other important thing is because the package creates a new namespace
+the class and the interface name conflicts are actually avoided as result of that.
+Because they're actually in their own separate area.
+Which affectively, is what that namespace is,
+it's sort of a different area that all these classes and
+interfaces are actually sort of put together or placed together.
+
+And importantly, classes within the package, that you create,
+have unrestricted access to one another while
+they still restrict access for classes outside the package.
+
+So, that's another sort of very important reason why you'd actually want to use
+packages.
+
+Java.lang is auto imported package in any java fundamental program(Classes Integer double all come from java.lang)

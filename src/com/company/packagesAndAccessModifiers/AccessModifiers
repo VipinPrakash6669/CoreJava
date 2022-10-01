@@ -1,0 +1,48 @@
+So public means that the object is visible to all classes everywhere, whether they
+are in the same package or have imported the package containing the public class.
+
+Package-private, what that means is the object is only available
+Within its own package and is visible to every class within the same package.
+So package-private is specified by not specifying, if that makes sense.
+In other words, its the default, if you do not specify public
+it's not actually a package-private key word as such.
+You just remove public and leave it as a class and
+then you get package-private for doing that. So moving on.
+
+This is an example of a top level public class as you can see on the screen there.
+It's a standard public class definition there, and it's a public constructor.
+Top level public interface, very similar as you can see there.
+But again the public keyword The word interface, and
+then obviously the name of the interface in this case.
+
+Now a top level package-private class,
+I mentioned that you remove the public, identify you can see on line three,
+there's no public there it just says class.
+
+That is how you define a package-private class.
+And likewise for interface Package Private Interface,
+we're removing the word Public again.
+
+Now member level, this is once we're actually in the class itself.
+Public, so using public at that level,
+at the member level Has the same meaning as the top level.
+So in other words the public class member or field and public method
+can be accessed from any other class anywhere, even in a different package.
+
+And we saw that when we were using the main method.
+To update the balance manually instead of going through the withdrawal and
+deposit methods.
+
+The package private also has the same meaning, it does at the top level.
+An object with no access modifier is visible to every class within the same
+package but not to classes in external packages.
+
+And lastly private and we saw that when we changed the fields in the example code.
+The object is only visible within the class it's declared in.
+It's not visible anywhere else including in subclasses of its class,
+that's very important to know as well.
+
+Lastly, protected the object is visible anywhere in its own package, sort of like
+package-private but Also in subclasses, even if they were in another package.
+
+So that's you'd wanna use protected instead of private.
