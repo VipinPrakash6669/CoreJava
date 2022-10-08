@@ -8,13 +8,11 @@ import java.util.Scanner;
 public class ParkingLot {
 
     private String id;
-
+    private ArrayList<Floor> floors = new ArrayList<>();
+    private Scanner sc= new Scanner(System.in);
     public String getId() {
         return id;
     }
-
-    private Scanner sc= new Scanner(System.in);
-    private ArrayList<Floor> floors = new ArrayList<>();
 
     public void setId(String id) {
         this.id = id;
@@ -32,10 +30,6 @@ public class ParkingLot {
         for(int i=0;i<floors.size();i++){
             floors.get(i).addSlot(slots);
         }
-    }
-
-    public int getNumberOfFloors(){
-        return floors.size();
     }
 
     public void display() {
